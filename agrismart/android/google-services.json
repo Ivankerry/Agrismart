@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "475432630740",
+    "project_id": "agrismart-fe804",
+    "storage_bucket": "agrismart-fe804.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475432630740:android:b273412f217fecf5dcbe41",
+        "android_client_info": {
+          "package_name": "com.example.agrismart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQctWG5ADyUoUQAyOGhPoRaLfs6sscGPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
