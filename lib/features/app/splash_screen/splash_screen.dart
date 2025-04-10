@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class SplashScreen extends StatefulWidget {
   final Widget? child;
   const SplashScreen({super.key, this.child});
@@ -10,28 +9,27 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-
-@override
+  @override
   void initState() {
-    Future.delayed(
-      Duration(seconds: 3),(){
-        Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => widget.child!), (route) => false);
-    }
-    );
+    Future.delayed(const Duration(seconds: 3), () {
+      Navigator.pushAndRemoveUntil(
+        context,
+        MaterialPageRoute(builder: (context) => widget.child!),
+        (route) => false,
+      );
+    });
     super.initState();
   }
-
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text(
-          "Welcome To Flutter Firebase",
-          style: TextStyle(
-            color: Colors.blue,
-            fontWeight: FontWeight.bold,
-          ),
+        child: Image.asset(
+          'assets/images/logo1.png', // Full path to your image
+          width: 200, // Adjust the width as needed
+          height: 200, // Adjust the height as needed
+          fit: BoxFit.contain, // Adjust the image scaling
         ),
       ),
     );
