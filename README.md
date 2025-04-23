@@ -22,6 +22,7 @@ This project is under active development. So far, we have completed:
 ### ✅ Authentication
 - Firebase Auth with email/password login
 - Secured user sessions
+- Email authentication 
 
 ### 📅 Rosters Module
 - Employee scheduling interface
